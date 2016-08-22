@@ -31,7 +31,7 @@ $ ../capd/configure --prefix $PWD -with-filib=check -with-mpfr=check -without-gu
 $ make -j8
 $ make install
 ```
-where inplace of $PWD you should put the absolute path to the current directory
+where in place of $PWD you should put the absolute path to the current directory
 
 ####Solver
 Except CAPD part, the rest of the software does not need any further installation. Only compiling the code is required. In a *Proof* subfolder there are *candidate.cpp* and *inclusion.cpp* files which do the proofing procedure. To help automate the process *makeProof.sh* script is included (see Usage section). In short, download the *Solver* folder and run the script.
